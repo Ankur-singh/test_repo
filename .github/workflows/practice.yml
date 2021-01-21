@@ -17,4 +17,4 @@ jobs:
     - name: show content
       run: cat intro.md
     - name: change directory
-      run: cd build
+      run: cd book
