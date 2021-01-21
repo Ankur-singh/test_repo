@@ -2,7 +2,7 @@ name: Priting file names
 
 on: 
   push:
-    branch: [main]
+    branches: [main]
 
 jobs:
   info:
