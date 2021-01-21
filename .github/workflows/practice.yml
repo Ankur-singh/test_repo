@@ -14,3 +14,5 @@ jobs:
       run: pwd
     - name: Files
       run: ls
+    - name: show content
+      run: cat intro.md
