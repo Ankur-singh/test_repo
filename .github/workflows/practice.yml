@@ -16,3 +16,5 @@ jobs:
       run: ls
     - name: show content
       run: cat intro.md
+    - name: change directory
+      run: cd build
