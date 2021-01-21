@@ -1,0 +1,15 @@
+name: Priting file names
+
+on: 
+  push:
+    branch: [main]
+
+jobs:
+  info:
+    name: Print Info
+    runs-on: ubuntu-latest
+    steps:
+    - name: Present working directory
+      run: pwd
+    - name: Files
+      run: ls
