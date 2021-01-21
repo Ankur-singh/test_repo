@@ -16,5 +16,5 @@ jobs:
       env:
         REPO: self
         BRANCH: site
-        FOLDER: ./build
+        FOLDER: book
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
