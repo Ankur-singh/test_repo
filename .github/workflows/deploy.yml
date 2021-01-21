@@ -2,14 +2,14 @@ name: Deploy to Moodle
 on:
   push:	
     branches:	
-      - master
+      - main
 
 jobs:
   deploy:
     name: Deploy to Moodle
     runs-on: ubuntu-latest    
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@v2.4.0
